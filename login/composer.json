@@ -1,0 +1,21 @@
+{
+	"name": "niki/login",
+	"authors": [
+		{
+			"name": "nikibyniki",
+			"email": "nikirepmvby@gmail.com"
+		}
+	],
+	"require": {
+		"laravelcollective/html": "~5.0"
+	},
+	"extra": {
+		"laravel": {
+			"providers": ["Collective\\Html\\HtmlServiceProvider"],
+			"aliases": {
+				"Form": "Collective\\Html\\HtmlServiceProvider",
+				"Html": "Collective\\Html\\HtmlFacade"
+			}
+		}
+	}
+}
