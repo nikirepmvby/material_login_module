@@ -16,11 +16,7 @@
 	},
 	"extra": {
 		"laravel": {
-			"providers": ["Collective\\Html\\HtmlServiceProvider"],
-			"aliases": {
-				"Form": "Collective\\Html\\HtmlServiceProvider",
-				"Html": "Collective\\Html\\HtmlFacade"
-			}
+			"providers": ["Nikibyniki\\Login\\LoginServiceProvider"]
 		}
 	}
 }
